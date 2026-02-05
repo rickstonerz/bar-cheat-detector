@@ -214,6 +214,23 @@ https://storage.uk.cloud.ovh.net/v1/AUTH_.../BAR/demos/FILENAME.sdfz
 
 ---
 
+## Future Detection Methods
+
+Potential additions for more robust detection:
+
+- **Headless bot detection**: Players with massive unit counts but no lag/performance issues may be using packet injection (not rendering the game, just sending commands). Signals:
+  - High unit count with suspiciously low APM
+  - Perfect micro on hundreds of units simultaneously
+  - No pause/hesitation patterns when overwhelmed
+
+- **Unit control complexity**: Analyze commands-per-unit ratio and micro precision
+
+- **Blueprint filtering**: Distinguish blueprint spam from bot automation
+
+- **Cross-game fingerprinting**: Track timing signatures across multiple games to identify alt accounts
+
+---
+
 ## Contributing
 
 Pull requests welcome. Key areas:
