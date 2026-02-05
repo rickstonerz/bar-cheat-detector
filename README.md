@@ -10,6 +10,32 @@ Detects automation patterns including:
 - **Suspicious periodicity** (100ms, 130ms, 200ms intervals)
 - **Bot farms** (multiple accounts with identical timing patterns)
 
+---
+
+## Test Results
+
+Analysis of **867 games** (12,684 player-game records):
+
+```
+Detection Distribution
+═══════════════════════════════════════════════════════════
+
+🚨 BOT (100+)      ██████████████████████████░░░░░░░░░░░░░░░  52.9%  (6,704)
+⚠️  SUSPECT (50-99) █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.9%    (364)
+🔶 WATCH (20-49)   ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  14.5%  (1,842)
+✓  CLEAN (0-19)    ████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  29.7%  (3,774)
+
+═══════════════════════════════════════════════════════════
+```
+
+**Key findings:**
+- Over **50% of player-games** show strong bot indicators
+- Detected **10+ bot farms** (3+ coordinated bots in same game)
+- Worst offenders: **1,195 actions/sec** burst rate (impossible for humans)
+- Common pattern: **170ms interval** (Windows keyboard repeat rate)
+
+---
+
 ## Components
 
 ### 1. Replay Analyzer (Node.js)
@@ -197,7 +223,7 @@ Pull requests welcome. Key areas:
 
 ## License
 
-GPL-2.0 - See [LICENSE](LICENSE)
+MIT - See [LICENSE](LICENSE)
 
 ---
 
