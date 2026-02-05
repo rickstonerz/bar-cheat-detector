@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#ff6b6b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="640" fill="url(#bg)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.1" stroke="#4ecca3" stroke-width="1">
+    <line x1="0" y1="100" x2="1280" y2="100"/>
+    <line x1="0" y1="200" x2="1280" y2="200"/>
+    <line x1="0" y1="300" x2="1280" y2="300"/>
+    <line x1="0" y1="400" x2="1280" y2="400"/>
+    <line x1="0" y1="500" x2="1280" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="640"/>
+    <line x1="400" y1="0" x2="400" y2="640"/>
+    <line x1="600" y1="0" x2="600" y2="640"/>
+    <line x1="800" y1="0" x2="800" y2="640"/>
+    <line x1="1000" y1="0" x2="1000" y2="640"/>
+  </g>
+
+  <!-- Warning stripes -->
+  <rect x="0" y="0" width="1280" height="8" fill="url(#accent)"/>
+  <rect x="0" y="632" width="1280" height="8" fill="url(#accent)"/>
+
+  <!-- Main title -->
+  <text x="640" y="200" font-family="Arial Black, sans-serif" font-size="72" font-weight="bold" fill="#ffffff" text-anchor="middle">BAR CHEAT DETECTOR</text>
+
+  <!-- Subtitle -->
+  <text x="640" y="270" font-family="Arial, sans-serif" font-size="28" fill="#4ecca3" text-anchor="middle">Real-time bot detection for Beyond All Reason</text>
+
+  <!-- Stats boxes -->
+  <g transform="translate(140, 320)">
+    <rect x="0" y="0" width="220" height="120" rx="10" fill="#0f3460" stroke="#4ecca3" stroke-width="2"/>
+    <text x="110" y="50" font-family="Arial Black" font-size="42" fill="#e94560" text-anchor="middle">52.9%</text>
+    <text x="110" y="90" font-family="Arial" font-size="18" fill="#aaaaaa" text-anchor="middle">Bots Detected</text>
+  </g>
+
+  <g transform="translate(420, 320)">
+    <rect x="0" y="0" width="220" height="120" rx="10" fill="#0f3460" stroke="#4ecca3" stroke-width="2"/>
+    <text x="110" y="50" font-family="Arial Black" font-size="42" fill="#ff6b6b" text-anchor="middle">867</text>
+    <text x="110" y="90" font-family="Arial" font-size="18" fill="#aaaaaa" text-anchor="middle">Games Analyzed</text>
+  </g>
+
+  <g transform="translate(700, 320)">
+    <rect x="0" y="0" width="220" height="120" rx="10" fill="#0f3460" stroke="#4ecca3" stroke-width="2"/>
+    <text x="110" y="50" font-family="Arial Black" font-size="42" fill="#4ecca3" text-anchor="middle">170ms</text>
+    <text x="110" y="90" font-family="Arial" font-size="18" fill="#aaaaaa" text-anchor="middle">Bot Signature</text>
+  </g>
+
+  <g transform="translate(980, 320)">
+    <rect x="0" y="0" width="220" height="120" rx="10" fill="#0f3460" stroke="#4ecca3" stroke-width="2"/>
+    <text x="110" y="50" font-family="Arial Black" font-size="36" fill="#ffd700" text-anchor="middle">1195/s</text>
+    <text x="110" y="90" font-family="Arial" font-size="18" fill="#aaaaaa" text-anchor="middle">Max Burst Rate</text>
+  </g>
+
+  <!-- Bottom tagline -->
+  <text x="640" y="540" font-family="Arial" font-size="22" fill="#666666" text-anchor="middle">Detect automation via command timing analysis</text>
+
+  <!-- Bot icon left -->
+  <text x="80" y="200" font-size="80" text-anchor="middle">🤖</text>
+
+  <!-- Warning icon right -->
+  <text x="1200" y="200" font-size="80" text-anchor="middle">🚨</text>
+</svg>
