@@ -1,5 +1,7 @@
 # BAR Cheat Detector
 
+> **Disclaimer:** This is an experimental/novelty project for educational purposes. Detection results are not guaranteed to be accurate and should not be used as definitive proof of cheating. False positives may occur. The authors take no responsibility for any actions taken based on this tool's output. Use at your own discretion.
+
 Real-time and replay-based cheat/bot detection for [Beyond All Reason](https://www.beyondallreason.info/).
 
 Detects automation patterns including:
