@@ -32,10 +32,11 @@
   <rect x="0" y="632" width="1280" height="8" fill="url(#accent)"/>
 
   <!-- Main title -->
-  <text x="640" y="200" font-family="Arial Black, sans-serif" font-size="72" font-weight="bold" fill="#ffffff" text-anchor="middle">BAR CHEAT DETECTOR</text>
+  <text x="640" y="180" font-family="Arial Black, sans-serif" font-size="64" font-weight="bold" fill="#ffffff" text-anchor="middle">BEYOND ALL REASON</text>
+  <text x="640" y="250" font-family="Arial Black, sans-serif" font-size="56" font-weight="bold" fill="#e94560" text-anchor="middle">CHEAT DETECTOR</text>
 
   <!-- Subtitle -->
-  <text x="640" y="270" font-family="Arial, sans-serif" font-size="28" fill="#4ecca3" text-anchor="middle">Real-time bot detection for Beyond All Reason</text>
+  <text x="640" y="295" font-family="Arial, sans-serif" font-size="24" fill="#4ecca3" text-anchor="middle">Real-time bot detection via command timing analysis</text>
 
   <!-- Stats boxes -->
   <g transform="translate(140, 320)">
