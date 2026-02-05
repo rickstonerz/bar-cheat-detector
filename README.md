@@ -231,6 +231,25 @@ Potential additions for more robust detection:
 
 ---
 
+## Verification Program
+
+**Flagged but innocent?** You can prove you're human.
+
+If your name appears in our database and you believe it's a false positive, you can request verification:
+
+1. **Stream a live game** via Twitch, Discord screen share, or similar
+2. **Play normally** while being observed by the project author
+3. Once verified, you will be:
+   - Removed from the suspect database
+   - Flagged as **VERIFIED HUMAN**
+   - Used as baseline data to improve detection accuracy
+
+This is the **only** way to be verified. No exceptions. Fair play forever.
+
+Contact: Open an issue on this repo to request verification.
+
+---
+
 ## Contributing
 
 Pull requests welcome. Key areas:
