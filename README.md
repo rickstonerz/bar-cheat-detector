@@ -229,6 +229,12 @@ Potential additions for more robust detection:
 
 - **Cross-game fingerprinting**: Track timing signatures across multiple games to identify alt accounts
 
+- **Hostage game detection**: Identify games where losing team is trapped:
+  - Multiple failed surrender votes
+  - Massive player count imbalance (2v7+)
+  - Prolonged games with one side clearly dead
+  - Bots may be used to grief/hostage real players
+
 ---
 
 ## Verification Program
