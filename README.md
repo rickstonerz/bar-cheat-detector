@@ -105,6 +105,9 @@ node report.js compare Player1 Player2
 
 # Find bot farms (3+ bots in same game)
 node find-farms.js
+
+# Detect hostage games (failed surrender votes)
+node detect-hostage.js replays/
 ```
 
 ### In-Game Widget
@@ -229,11 +232,11 @@ Potential additions for more robust detection:
 
 - **Cross-game fingerprinting**: Track timing signatures across multiple games to identify alt accounts
 
-- **Hostage game detection**: Identify games where losing team is trapped:
-  - Multiple failed surrender votes
-  - Massive player count imbalance (2v7+)
-  - Prolonged games with one side clearly dead
-  - Bots may be used to grief/hostage real players
+- **Hostage game detection**: ✅ **NOW IMPLEMENTED!** Detects games where losing team is trapped:
+  - Parses server vote messages from replay data
+  - Tracks failed surrender attempts with timestamps
+  - Calculates "hostage score" (failed votes × trapped time)
+  - Run with: `node detect-hostage.js replays/`
 
 ---
 
