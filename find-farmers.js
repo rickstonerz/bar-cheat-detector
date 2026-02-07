@@ -10,10 +10,13 @@ const { DemoParser } = require('sdfz-demo-parser');
 const { AnalysisDB } = require('./database');
 const fs = require('fs');
 
-const KNOWN_BOTS = ['Pengawin', 'Jaysic', 'ChaseChase', 'FennyBarka', 'still_xhimi',
+const KNOWN_BOTS = ['Pengawin', 'ChaseChase', 'FennyBarka', 'still_xhimi',
                     'toasterbath', 'GrowTall', 'Biggus_Dikkus', 'nightowl7403',
                     'Savagery', 'TadpoleAngel37', '404neo', 'RayLewis', 'StratDieter',
                     'Daedalus777', 'nullaegy', 'Supraamann', 'BustinMakesMe'];
+// VERIFIED HUMANS (false positives - removed from bot list):
+// - Jaysic: 170ms pattern but plays badly, talks human, verified by rickcoder
+// - HotDawg: High burst but low interval concentration, OS44 elite player
 
 const files = fs.readdirSync('replays').filter(f => f.endsWith('.sdfz'));
 

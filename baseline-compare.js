@@ -3,7 +3,7 @@
 const { DemoParser } = require('sdfz-demo-parser');
 const fs = require('fs');
 
-const KNOWN_BOTS = ['Pengawin', 'Jaysic', 'ChaseChase', 'FennyBarka', 'still_xhimi',
+const KNOWN_BOTS = ['Pengawin', 'ChaseChase', 'FennyBarka', 'still_xhimi',
                     'toasterbath', 'GrowTall', 'Biggus_Dikkus', 'nightowl7403',
                     'Savagery', 'TadpoleAngel37', '404neo', 'RayLewis', 'StratDieter'];
 

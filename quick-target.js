@@ -73,7 +73,7 @@ async function run() {
     console.log('\n── KNOWN BOT CHECK ──');
     console.log('(Cross-referencing enemies with suspected bot accounts)\n');
 
-    const knownBots = ['Pengawin', 'Jaysic', 'ChaseChase', 'FennyBarka', 'still_xhimi',
+    const knownBots = ['Pengawin', 'ChaseChase', 'FennyBarka', 'still_xhimi',
                        'toasterbath', 'GrowTall', 'Biggus_Dikkus', 'nightowl7403'];
 
     let botGames = 0;
