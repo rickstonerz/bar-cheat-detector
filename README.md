@@ -110,6 +110,9 @@ node find-farms.js
 
 # Detect hostage games (failed surrender votes)
 node detect-hostage.js replays/
+
+# Find bot operators ("farmers") - experimental
+node find-farmers.js
 ```
 
 ### In-Game Widget
@@ -233,6 +236,12 @@ Potential additions for more robust detection:
 - **Blueprint filtering**: Distinguish blueprint spam from bot automation
 
 - **Cross-game fingerprinting**: Track timing signatures across multiple games to identify alt accounts
+
+- **Find the Farmer**: ✅ **NOW IMPLEMENTED!** Detect bot operators by correlation:
+  - Players who frequently appear in games WITH known bots
+  - AND have elevated personal suspicion scores
+  - Theory: Operators play on "main" account alongside their bot farm
+  - Run with: `node find-farmers.js`
 
 - **Hostage game detection**: ✅ **NOW IMPLEMENTED!** Detects games where losing team is trapped:
   - Parses server vote messages from replay data
