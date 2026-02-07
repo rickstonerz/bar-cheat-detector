@@ -221,6 +221,7 @@ https://storage.uk.cloud.ovh.net/v1/AUTH_.../BAR/demos/FILENAME.sdfz
 - **Blueprints**: Build templates may generate rapid commands - testing ongoing
 - **Lag spikes**: Network issues can cause command bunching
 - **Widget restrictions**: Some multiplayer servers block user widgets
+- **Player names bug**: Widget may show "player1", "player2" on initial load. Toggle F11 off/on to refresh and show actual names
 
 ---
 
