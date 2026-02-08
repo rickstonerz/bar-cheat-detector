@@ -17,6 +17,7 @@ const KNOWN_BOTS = ['Pengawin', 'ChaseChase', 'FennyBarka', 'still_xhimi',
 // VERIFIED HUMANS (false positives - removed from bot list):
 // - Jaysic: 170ms pattern but plays badly, talks human, verified by rickcoder
 // - HotDawg: High burst but low interval concentration, OS44 elite player
+// - ZaddyZenith: OS18 air specialist, 200ms pattern = air micro rhythm, not automation
 
 const files = fs.readdirSync('replays').filter(f => f.endsWith('.sdfz'));
 
