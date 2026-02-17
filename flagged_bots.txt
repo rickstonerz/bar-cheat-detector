@@ -1,0 +1,21 @@
+# Confirmed Bot Accounts
+# Format: PlayerName - Score - Detection Method - Date Added
+
+## [H0DN] Clan Bot Farm - Detected 2026-02-17
+[H0DN]TheMuffinMan - 128 - 33.3% @ 130ms interval, 21.4 actions/sec - 2026-02-17
+[H0DN]Hackfleisch - 110 - Extreme burst 90 actions/sec - 2026-02-17
+[H0DN]MesserMike - 100 - Extreme burst 34.3 actions/sec - 2026-02-17
+
+## Individual Bot Accounts
+imaginationx303 - 153 - 21.8% @ 200ms, 165 actions/sec burst - 2026-02-17
+chausterfunk - 148 - 21.1% @ 130ms, extreme burst - 2026-02-17
+AfroKenpachi - 145 - 24.3% @ 130ms, 89.9 actions/sec - 2026-02-17
+bigdawHG - 128 - 21.8% @ 200ms, 32.7 actions/sec - 2026-02-17
+gmoneymora - 110 - Extreme burst 34.3 actions/sec - 2026-02-17
+
+## "Cant" Bot Farm Network - Detected 2026-02-17
+CantSea - 160 - Coordinated network, 4 flags - 2026-02-17
+CantMicro - 135 - Coordinated network, systematic pairing - 2026-02-17
+CantMacro - TBD - Part of coordinated "Cant" network - 2026-02-17
+CantFront - TBD - Part of coordinated "Cant" network - 2026-02-17
+CantStopMalding - TBD - Part of coordinated "Cant" network - 2026-02-17
