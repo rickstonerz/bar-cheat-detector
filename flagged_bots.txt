@@ -7,6 +7,7 @@
 [H0DN]MesserMike - 100 - Extreme burst 34.3 actions/sec - 2026-02-17
 
 ## Individual Bot Accounts
+TrojanDioganese - 203 - 70% detection rate, consistent 103-203 scores - 2026-02-20
 imaginationx303 - 153 - 21.8% @ 200ms, 165 actions/sec burst - 2026-02-17
 chausterfunk - 148 - 21.1% @ 130ms, extreme burst - 2026-02-17
 AfroKenpachi - 145 - 24.3% @ 130ms, 89.9 actions/sec - 2026-02-17
