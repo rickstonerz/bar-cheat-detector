@@ -5,7 +5,8 @@ const fs = require('fs');
 
 const KNOWN_BOTS = ['Pengawin', 'ChaseChase', 'FennyBarka', 'still_xhimi',
                     'toasterbath', 'GrowTall', 'Biggus_Dikkus', 'nightowl7403',
-                    'Savagery', 'TadpoleAngel37', '404neo', 'RayLewis', 'StratDieter'];
+                    'Savagery', 'TadpoleAngel37', '404neo', 'RayLewis', 'StratDieter',
+                    '[SC]Mastergrey34'];
 
 const TARGET = process.argv[2] || 'rickcoder';
 const BASELINE_PLAYERS = ['DigitalTurnip', 'Virign', 'UncleSteve', 'kirinokirino',

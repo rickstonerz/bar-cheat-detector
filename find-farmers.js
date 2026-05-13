@@ -21,7 +21,9 @@ const KNOWN_BOTS = ['Pengawin', 'ChaseChase', 'FennyBarka', 'still_xhimi',
                     // Individual bots (detected 2026-02-17)
                     'imaginationx303', 'chausterfunk', 'AfroKenpachi', 'bigdawHG', 'gmoneymora',
                     // High-priority bot (detected 2026-02-20)
-                    'TrojanDioganese'];
+                    'TrojanDioganese',
+                    // Potential bot farm operator (flagged 2026-05-13)
+                    '[SC]Mastergrey34'];
 // VERIFIED HUMANS (false positives - removed from bot list):
 // - Jaysic: 170ms pattern but plays badly, talks human, verified by rickcoder
 // - HotDawg: High burst but low interval concentration, OS44 elite player
